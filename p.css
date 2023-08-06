@@ -1,0 +1,432 @@
+:root{
+    --section-color-white:white;
+}
+.wholebody{
+    margin-top: -8px;
+}
+#navbar{
+    position: fixed;
+    box-shadow: 0px 2px 4px 0px rgba(18,29,39,255);
+}
+*{
+    background-color: rgba(12,16,39,255);
+}
+.nav-bar{
+    display: flex;
+    color: var(--section-color-white);
+}
+.search-bar{
+ margin-top: 18px;
+    margin-left: 23vw;
+}
+
+.favorites{
+    margin-left: 15vw;
+}
+#search-icon{
+    text-align: center;
+    width: 24vw;
+    height: 30px;
+    color: var(--section-color-white);
+}
+
+#icon{
+    margin-top: 8px;
+    margin-left: 5px;
+    position: absolute;
+}
+.noti-icon{
+   margin-top: 24px;
+    margin-left: 7vw;
+}
+.noti-icon i:hover{
+    background-color: rgb(66, 14, 117);
+    border-radius: 50%;
+    box-shadow: -2px 0px 3px 5px rgb(51, 0, 255);
+}
+.profile-photo{
+    margin-left: 11vw;
+    margin-top: 7px;
+}
+.profile-photo img{
+    border-radius: 40%;
+}
+#micro-phone{
+    margin-top: 7.5px;
+margin-left: 22.8vw;
+position: absolute;
+}
+.container{
+display: flex;
+}
+.div1{
+    margin-top: 15vh;
+width: 68%;
+margin-left: 2%;
+height:490px ;
+overflow: auto;
+white-space:nowrap;
+}
+.div1 img{
+    width: 450px;
+    height: 450px;
+}
+.div2{
+    margin-top: 12vh;
+    color: var(--section-color-white);
+    width: 35%;
+    height: 96vh;
+    margin-left: 3%;
+    position: fixed;
+      
+}
+.scroll{
+    overflow-y: scroll;
+}
+
+#empty{
+    width: 200px;
+    height: 200px;
+}
+.select{
+    margin-top:-3vh ;
+    margin-left: 18.7vw;
+}
+#que-options{
+    color: var(--section-color-white);
+    border: none;
+}
+.que{
+  
+    position: fixed;
+}
+.margin-top{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    overflow-y:scroll;
+    height: 90vh;
+ 
+}
+.list{
+    margin-top: 9px; 
+   display: flex ;
+
+}
+#list-no{
+    align-self: center;
+
+}
+.list img{
+    width:70px;
+    height: 70px;
+
+}
+#song-image{
+    margin-left: 10px;
+}
+#song-name{
+    margin-left: 24px;
+    align-self: center;
+}
+#heart{
+    position:absolute;
+    align-self: center;
+    margin-left:57%;
+}
+
+
+.bars{
+	color: red;
+    margin: 0;
+    margin-right: 5%;
+    /* display: none; */
+}
+.bars i {
+    font-size: 2rem;
+}
+.dropdown-list{
+    color: white;
+	margin: 0;
+    display: none;
+    background-color:rgba(18,29,39,255);
+    box-shadow: 0px 1px 1px 1px rgba(18,29,39,255);
+}
+.dropdown-list ul{
+    margin: 0.2rem 0.2rem;
+    text-align: left;
+    padding: 0px 0.8rem;
+}
+.dropdown-menu:hover .dropdown-list{
+    display: block;
+    position: absolute;
+}
+.dropdown-list li{
+    margin: 0.7rem 0px;
+}
+.no-list-style{
+    list-style: none;
+}
+
+.no-list-style li {
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+.no-list-style i{
+    margin-top: 1px;
+    margin-left: -7px;
+}
+.right{
+margin-left: 80px;
+}
+.lis-sng{
+    width: 65%;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.name-sng{
+    align-items: center;
+    margin-left: -30px;
+    color: var(--section-color-white);
+    display: flex;
+    flex-direction: column;
+}
+.date{
+    margin-top:-20px ;
+}
+.time{
+
+    color: var(--section-color-white);
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+.mt{
+    margin-top: 7px;
+}
+.artist{
+    color: var(--section-color-white);
+    margin-left: 30px;
+}
+.popular-artist{
+    color: var(--section-color-white);
+    display: flex;
+    width: 67%;
+    margin-left: 2%;
+}
+.flex-column{
+    color: var(--section-color-white);
+    display: flex;
+    flex-direction: column;
+}
+.artst-image img{
+    align-self: center;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.artst-image img:hover{
+    height: 180px;
+    width: 180px;
+}
+.arts-name{
+align-self: center;
+}
+.ml{
+    margin-left: 30px;
+}
+.moods{
+    margin-top: 10px;
+    background-color: rgba(16,22,66,255);
+    display: flex;
+    width: 67%;
+    margin-left: 4%;
+}
+.mood-image{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    background-color: rgba(16,22,66,255);
+}
+.mood-image img{
+    height: 100px;
+    width:100px ;
+    border-radius: 50%;
+}
+.three{
+    display: flex;
+    margin-left: 3%;
+    width: 67%;
+}
+
+
+.div-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    margin-top: 40px;
+    height: 250px;
+    width: 330px;
+    background-image: url('part 2.jpg');
+    background-repeat: no-repeat;
+ }  
+.div-a:hover{
+    color: rgb(132, 115, 115);
+    height: 300px;
+    width: 450px;
+}
+.div-b:hover{
+    color: brown;
+    height: 300px;
+    width: 450px;
+}
+.div-c:hover{
+    color: brown;
+    height: 300px;
+    width: 320px;
+}
+.div-a>h1{
+    /* margin-top: 125px; */
+    font-size: 3rem;
+    text-align: center;
+    background-color: transparent !important;
+}
+.div-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    color:red;
+    margin-top: 40px;
+    height: 250px;
+    width: 330px;
+    background-image: url('dj chat.jpg');
+    background-repeat: no-repeat;
+ }
+ .div-b>h1{
+    font-size: 3rem;
+    text-align: center;
+    background-color: transparent !important;
+}
+.div-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    color:gray;
+    margin-top: 40px;
+    height: 250px;
+    width: 330px;
+    background-image: url('connor-wilkins-DboxKKYYqRU-unsplash.jpg');
+    background-repeat: no-repeat;
+ }
+ .div-c>h1{
+    font-size: 3rem;
+    text-align: center;
+    background-color: transparent !important;
+}
+.latest-hindi{
+    margin-top: 25px;
+    display: flex;
+    width: 67%;
+    margin-left: 3%;
+}
+.hindi-image{
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--section-color-white);
+}
+.hindi-image img{
+    height: 150px;
+    width: 150px;
+}
+.hindi-name{
+    margin-top: -4px;
+    align-self: flex-start;
+}
+.hindi-name h5{
+    margin-top: -13px;
+}
+.effect img:hover{
+    width: 614px;
+    height: 500px;
+}
+.div1::-webkit-scrollbar {
+    display:inline;
+  }
+.mood-image img:hover{
+    width: 110px;
+    height: 110px;
+ box-shadow:0px 0px 15px 0px blue ;
+}
+.hindi-image div img:hover{
+    box-shadow: 0px 0px 14px 0px yellow;
+    width: 170px;
+    height: 170px;
+}
+.img-song img:hover{
+    box-shadow: 0px 0px 14px 0px yellow;
+    width: 140px;
+    height: 140px;
+}
+.img-song img{
+    width: 120px;
+    height: 120px;
+}
+.black{
+    flex-direction: column;
+    margin-left: -10px;
+    width: 99vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    bottom: -4px;
+    position: sticky;
+    background-color: rgba(16,22,66,255);
+}
+.icons-pl{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(16,22,66,255);
+}
+
+#myprogress{
+width:27vw;
+}
+.icons-pl i{
+    margin-left: 13px;
+    margin-top: 4px;
+    font-size: 2rem;
+    background-color: rgba(16,22,66,255);
+}
+.icons-pl div{
+    background-color: rgba(16,22,66,255);
+}
+#ml{
+    margin-right: 10px;
+}
+#ml-1{
+    margin-left:20px ;
+}
+#vlm{
+    background-color:transparent;
+    margin-left: 80vw;
+  
+}
+#vlm-pt{
+    display: flex;
+    margin-top: -30px;
+    background-color:transparent;
+}
+#vlm-icon{
+    margin-left: 78vw;
+}
